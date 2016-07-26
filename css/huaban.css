@@ -1,0 +1,654 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 500px;
+    /*background-image: url(../img/desktop.jpeg);*/
+    /*background-size: cover;*/
+    /*opacity: 0.8;*/
+    float: left;
+    margin-top: 10px;;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+    font-size: 15px;
+}
+
+.logo {
+    width: 4%;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(221, 221, 221);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.left span {
+    font-size: x-large;
+}
+
+.dian {
+    width: 4%;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+}
+
+i {
+    background-color: darkorange;
+}
+
+.right a {
+    display: inline-block;
+    float: right;
+    display: inline-block;
+    margin: 10px;
+}
+
+.zhuce {
+    border: solid 0;
+    background-color: red;
+    float: left;
+}
+
+.denglu {
+    border: solid 1px;
+}
+
+.center-sentence {
+    width: 100%;
+}
+
+.center-sentence p {
+    font-size: 40px;
+    text-align: center;
+    margin: 118px auto 40px;
+    color: white;
+    font-family: "helvetica neue";
+}
+
+.input {
+    margin-left: 350px;
+
+}
+
+.input-input {
+    width: 50%;
+    border: solid 1px white;
+    width: 600px;
+    height: 34px;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.input-input input {
+    padding-top: 8px;
+    padding-left: 7px;
+    width: 10%;
+    float: left;
+    color: white;
+}
+
+.input input {
+    background: rgba(0, 0, 0, 0.007);
+    border: none;
+    padding-top: -10px;
+    display: inline-block;
+    color: white;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.input-input img {
+    width: 3%;
+    margin-left: 500px;
+    position: relative;
+    margin-top: 8px;
+    float: left;
+}
+
+.input p {
+    padding: 10px;
+    padding-left: 1px;
+    color: white;
+    margin-left: 20px;
+}
+
+.input a {
+    padding: 1px;
+}
+
+.pic p {
+    position: relative;
+    float: right;
+    top: 180px;
+    right: 15px;
+    color: white;
+}
+
+.main-background {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+
+hr {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.guanzhu {
+    margin-left: 43%;
+    text-align: center;
+    width: 150px;
+    height: 10px;
+    border-style: none;
+    background-color: white;
+    color: rgb(159, 159, 159);
+    padding: 40px 0;
+    margin-top: -48px;
+}
+
+.nav-border1 {
+    width: 100%;
+    border-bottom: solid 1px rgb(237,237,237);
+    padding-top: 50px;
+}
+
+.navgation {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    width: 100%;
+    height: 80px;
+}
+
+.nav-1 {
+    margin-bottom: 40px;
+}
+.nav{
+    height: 75px;
+    width: 10%;
+    line-height: 70px;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 10px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    background-size: cover;
+    border-radius: 10px;
+}
+.first-one {
+    background-image: url(../img/girl.png);
+}
+
+.sconed-one {
+
+    background-image: url(../img/heibai.png);
+
+}
+
+.third-one {
+
+    background-image: url(../img/qiqiu.png);
+
+}
+
+.fourth-one {
+
+    background-image: url(../img/kiss.png);
+
+}
+
+.fiveth-one {
+
+
+    background-image: url(../img/cake.png);
+
+}
+
+.sixed-one {
+
+    background-image: url(../img/bianlitie.png);
+
+}
+
+.seventh-one {
+
+    background-image: url(../img/eyes.png);
+
+}
+
+.main {
+    width: 80%;
+    background-color: white;
+    height: 280px;
+    float: left;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.nav-border2 {
+    width: 100%;
+    border-bottom: solid 1px rgb(237,237,237);
+    padding-top: 100px;
+
+}
+
+.recommend {
+    margin-left: 43%;
+    text-align: center;
+    width: 150px;
+    height: 10px;
+    border-style: none;
+    background-color: white;
+    color: rgb(159, 159, 159);
+    padding: 40px 0;
+    margin-top: -48px;
+}
+
+.container {
+    height: 1280px;
+    background-color: white;
+    padding-left: 6%;
+    padding-right: 6%;
+    width: 88%;
+
+}
+
+.picture,.information{
+    width: 23%;
+    height: 250px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.picture img {
+    width: 100%;
+}
+.picture a img:hover {
+    opacity: 0.8;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.information {
+    width: 245px;
+    height: 245px;
+    display: inline-block;
+    float: left;
+}
+
+.information :hover {
+    background-color: rgb(245, 245, 245);
+}
+.three{
+    height: 250px;
+}
+.information1 {
+    /*width: 245px;*/
+    /*height: 50%;*/
+    /*float: left;*/
+    /*background-color: rgb(250, 250, 250);*/
+    /*!*margin: 5%;*!*/
+    margin-buttom:5%;
+}
+
+.information-tongyong li {
+    list-style: none;
+    display: inline-block;
+    color: #bbb;
+    font-size: 12px;
+    padding: 7px;
+}
+.information p {
+    padding: 10px;
+}
+
+.information2 {
+    /*width: 245px;*/
+    /*height: 50%;*/
+    /*float: left;*/
+    /*background-color: rgb(250, 250, 250);*/
+    /*!*margin: 5%;*!*/
+    /*!*margin-top: 0px;*!*/
+    margin-top:5%;
+}
+
+.information-tongyong{
+    width: 215px;
+    height: 55%;
+    float: left;
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+
+
+}
+.p-border {
+    border-bottom: solid 1px #bbb;
+    font-family: 微软雅黑;
+    color: #bbbbbb;
+    font-size: 20px;
+    padding: 10px;
+}
+.p-1{
+    width: 20%;
+}
+.p-2{
+    width: 40%;
+}
+.in-two p a{
+    color: black;
+}
+.line-two  p a:hover{
+    color: red;
+}
+.information1 a:hover {
+    color: red;
+}
+.in-two{
+    float: right;
+}
+.information1 a {
+    color: black;
+}
+
+.three {
+    padding: 10px;
+}
+.six{
+    width: 23.5%;
+    height: 250px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding: 13px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.three-border{
+    width: 30px;
+    height: 56px;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    padding: 30px;
+
+}
+.three-border img{
+    width: 100%;
+    float: left;
+}
+.three-information{
+    width: 150px;
+    height: 55px;
+    background: rgba(0,0,0,.4);
+}
+.three-information li{
+    list-style: none;
+    display: inline-block;
+    color: #bbb;
+    font-size: 12px;
+    padding-left: 15px;
+}
+.three-information p{
+    text-align: center;
+    padding:10px;
+}
+.line {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    width: 100%;
+    height: 250px;
+    float: left;
+    position: relative;
+}
+.line-two img{
+    width: 100%;
+}
+.nav-title{
+    width: 100%;
+    background-color: white;
+}
+
+.download-more{
+    margin-left: 28%;
+    text-align: center;
+    background-color: rgb(247,247,247);
+    color: rgb(159, 159, 159);
+    width: 50%;
+    height: 30px;
+    padding-top: 10px;
+    position: relative;
+
+}
+.footer {
+    width: 80%;
+    background-color: white;
+    height: 100%;
+    float: left;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.caiji{
+    float: right;
+    color: rgb(158,126,107);;
+}
+.footer-first a{
+padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+.hr{
+    margin: 0;
+}
+.footer-width{
+    width: 100%;
+    background-color: white;
+    height: 350px;
+}
+.last a{
+    color: black;
+    width: 100%;
+    font-size: 14px;
+    padding: 8%;
+    line-height: 30px;
+}
+.last a:hover{
+    color: red;
+}
+.footer-padding{
+    padding: 10px;
+}
+.footer-vision{
+    width: 100%;
+    height: 200px;;
+    background-color: rgb(51,51,51);
+    color: rgb(221,221,221);
+}
+.footer-left{
+    width: 50%;
+    float: left;
+}
+.footer-right{
+    width: 10%;
+    float: right;
+    border-left: solid 1px rgb(221,221,221);
+    padding: 20px;
+    margin-top: 10px;
+}
+.footer-left li{
+    font-size: 16px;
+    color: #ddd;
+    display: inline-block;
+    padding: 20px;
+    float: left;
+}
+.vision-a {
+    color: #ededed;
+    padding-left: 10px;
+    float: left;
+}
+.footer-left a:hover{
+    color: white;
+    text-decoration: none;
+    text-underline: none;
+}
+.vision-b{
+    padding: 10px;
+    float: left;
+}
+.vision-c{
+    padding-left: 120px;
+    float: left;
+}
+.footer-right p{
+    margin: 20px;
+}
+.copyright{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: rgb(221,221,221);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.number{
+    border-left: solid 1px rgb(221,221,221)
+}
+.flexslider{
+
+}
+ .flexslider {
+     position: absolute;
+     top:0;
+     left:0;
+     width: 100%;
+     height: 482px;
+     overflow: hidden;
+     zoom: 1;
+     z-index: -1;
+ }
+
+
+.flexslider .slides li {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-direction-nav a {
+    width: 70px;
+    height: 70px;
+    line-height: 99em;
+    overflow: hidden;
+    margin: -35px 0 0;
+    display: block;
+    background: url(../img/ad_ctr.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .3s ease;
+    border-radius: 35px;
+}
+
+.flex-direction-nav .flex-next {
+    background-position: 0 -70px;
+    right: 0;
+}
+
+.flex-direction-nav .flex-prev {
+    left: 0;
+}
+
+.flexslider:hover .flex-next {
+    opacity: 0.8;
+    filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-prev {
+    opacity: 0.8;
+    filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-next:hover,
+.flexslider:hover .flex-prev:hover {
+    opacity: 1;
+    filter: alpha(opacity=50);
+}
+
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+.flex-control-nav li {
+    margin: 0 2px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.flex-control-paging li a {
+    background: url(../img/dot.png) no-repeat 0 -16px;
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -99em;
+    width: 16px;
+    cursor: pointer;
+}
+
+.flex-control-paging li a.flex-active,
+.flex-control-paging li.active a {
+    background-position: 0 0;
+}
+
+.flexslider .slides a img {
+    width: 100%;
+    height: 482px;
+    display: block;
+}
